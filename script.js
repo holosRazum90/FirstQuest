@@ -39,3 +39,7 @@ for(let i = 1; i <= 2; i++) {
 // personalMovieDB.movies[movie2] = ocen2;
 
 console.log(personalMovieDB);
+personalMovieDB.count < 10 ? console.log("Просмотрено довольно мало фильмов") : personalMovieDB.count > 10 && personalMovieDB.count < 30 ?
+console.log("Вы классический зритель") : personalMovieDB.count > 30 ? 
+console.log("Вы киноман") : console.log("Error");
+
