@@ -55,4 +55,13 @@ function writeYourGenres() {
 }
 writeYourGenres();
 
+// function learnJS(lang, callback) {
+//     console.log(`Я учу ${lang}!`);
+//     callback();
+// }
+// function youp(){
+//     console.log(`было просто!`);
+// }
+
+// learnJS('JavaScript', youp);
 
