@@ -65,44 +65,5 @@ writeYourGenres();
 
 // learnJS('JavaScript', youp);
 
-const Obj = {
-    a: 12,
-    b: 14,
-    c: {
-        d: 2,
-        e: 3
-    }
-};
-
-function copying(mainObj) {
-    let copyObj = {};
-
-    let key;
-    for(key in mainObj) {
-        if(typeof(key) == 'object') {
-            console.log(`object ${key}`);
-            let key2;
-            for(key2 in key) {
-                copyObj[key][key2] = mainObj[key][key2];
-            }
-        } else {
-        copyObj[key] = mainObj[key];
-        }
-        
-    }
-    return copyObj;
-}
-const copy = copying(Obj);
-
-copy.a = 13;
-copy.c.d = 5;
-console.log(Obj);
-console.log(copy);
-
-const vid = ['df', 'af', 'ht'],
-      fdo = ['ssg', 'gsg', 'hth'],
-      inter = [... vid, ...fdo, 'wefw', 'sfgg'];
-
-console.log(inter);
 
       
